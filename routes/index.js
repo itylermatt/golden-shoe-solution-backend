@@ -5,8 +5,8 @@ const categories = require('../dummy-data/index').categories;
 const categoryItems = require('../dummy-data/index').categoryItems;
 
 /* GET home. */
-router.get('/', function(req, res, next) {
-  res.json( { titleData, categoryItems, categories });
+router.get('/', function (req, res, next) {
+    res.json({titleData, categoryItems, categories});
 });
 
 module.exports = router;

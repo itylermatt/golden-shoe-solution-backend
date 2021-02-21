@@ -3,7 +3,7 @@ const router = express.Router();
 // const dummyData = require();
 
 /* GET returns. */
-router.get('/', (req,res)=>{
+router.get('/', (req, res) => {
     res.json({title: 'returns page'});
 });
 

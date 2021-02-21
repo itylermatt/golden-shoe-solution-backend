@@ -1,7 +1,7 @@
 const titleData = [];
 const categories = [];
 const categoryItems = [];
-for(let c = 0 ; c < 5; c++) {
+for (let c = 0; c < 5; c++) {
     titleData.push({
         img: 'https://media.everlane.com/image/upload/c_fill,dpr_1.0,f_auto,g_face:center,q_auto,w_auto:100:1200/v1/i/2ee124b0_4e5f.jpg',
         title: 'Image',
